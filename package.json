@@ -1,0 +1,15 @@
+{
+  "name": "recipe_data_app",
+  "version": "1.0.0",
+  "description": "Establishes an SQL database of recipes and their ingredients",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
