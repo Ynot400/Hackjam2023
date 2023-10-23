@@ -17,6 +17,7 @@
     <!-- <script src="./main.js"> -->
     <script>
         const socket = new WebSocket('ws://localhost:8080');
+        // if localhost is changed to patrick's ip address, you can access this website from another computer
 
         socket.addEventListener('open', (event) => {
             console.log('Connected to the server.');
