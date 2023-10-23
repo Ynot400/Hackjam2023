@@ -5,7 +5,7 @@ const mysql = require('mysql');
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'admin',
-    password: 'password'
+    password: 'hackJam2023'
 });
 
 // connect
